@@ -1,0 +1,22 @@
+"Source:","D:\SCHOOL R\OneDrive - University of Cape Town\2nd and 3rd Year Books\Academics 2022\1st Semester\ENGINEERING DESIGN PRINCIPLES\GA PROJECT\BME_DAUGTHER_BOARD\BME_DAUGTHER_BOARD.kicad_sch"
+"Date:","2022/06/03 14:26:43"
+"Tool:","Eeschema (6.0.2)"
+"Generator:","D:\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","4"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","C1","0.1uF","Device:C","Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal","~"
+"","","C2","0.1uF","Device:C","Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal","~"
+"","","J1","Conn_01x08_Male","Connector:Conn_01x08_Male","Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-GF-3.5_1x02_P3.50mm_Vertical_ThreadedFlange_MountHole","~"
+"","","U1","BME680","Sensor:BME680","Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","2","C1, C2","0.1uF","Device:C","Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal","~"
+"2","1","J1","Conn_01x08_Male","Connector:Conn_01x08_Male","Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-GF-3.5_1x02_P3.50mm_Vertical_ThreadedFlange_MountHole","~"
+"3","1","U1","BME680","Sensor:BME680","Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"

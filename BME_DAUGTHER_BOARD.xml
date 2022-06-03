@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\SCHOOL R\OneDrive - University of Cape Town\2nd and 3rd Year Books\Academics 2022\1st Semester\ENGINEERING DESIGN PRINCIPLES\GA PROJECT\BME_DAUGTHER_BOARD\BME_DAUGTHER_BOARD.kicad_sch</source>
+    <date>2022/06/03 14:45:22</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BME_DAUGTHER_BOARD.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal</footprint>
+      <fields>
+        <field name="JLCPART">C445190</field>
+        <field name="PRICE">$01026</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPART" value="C445190"/>
+      <property name="PRICE" value="$01026"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BME_DAUGTHER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9037c378-1baa-4d51-90fc-227832322b98</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal</footprint>
+      <fields>
+        <field name="JLCPART">C445190</field>
+        <field name="PRICE">$01026</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPART" value="C445190"/>
+      <property name="PRICE" value="$01026"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BME_DAUGTHER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b532d94-5adf-40a9-aa2f-bc58284f6753</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-GF-3.5_1x02_P3.50mm_Vertical_ThreadedFlange_MountHole</footprint>
+      <fields>
+        <field name="JLCPART">C480530</field>
+        <field name="PRICE">$0.5358</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPART" value="C480530"/>
+      <property name="PRICE" value="$0.5358"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BME_DAUGTHER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23e787f2-881a-4e6d-8091-8fdbd721560c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BME680</value>
+      <footprint>Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering</footprint>
+      <datasheet>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf</datasheet>
+      <fields>
+        <field name="JLCPART">C125972</field>
+        <field name="PRICE">$5.169</field>
+      </fields>
+      <libsource lib="Sensor" part="BME680" description="4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"/>
+      <property name="JLCPART" value="C125972"/>
+      <property name="PRICE" value="$5.169"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BME_DAUGTHER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e61e3b10-16bb-45fa-9a42-277efd2ec104</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor" part="BME680">
+      <description>4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8</description>
+      <docs>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf</docs>
+      <footprints>
+        <fp>*LGA*3x3mm*P0.8mm*Clockwise*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BME680</field>
+        <field name="Footprint">Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering</field>
+        <field name="Datasheet">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDI" type="bidirectional"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDO" type="bidirectional"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Sensor">
+      <uri>D:\6.0\share\kicad\symbols\/Sensor.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="CSB">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CSB" pintype="input"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VDDIO" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="4" name="SCK">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="5" name="SDI">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SDI" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="SDO">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SDO" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="VDDIO">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+  </nets>
+</export>
